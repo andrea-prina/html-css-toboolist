@@ -1,0 +1,104 @@
+/* Reset formattazione */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+/* Header */
+
+header{
+    background-color: white;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+#title-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #031732;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.layout {
+
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#upper-section {
+    margin-top: 40px;
+    padding: 15px;
+}
+
+#lower-section {
+    margin-top: 2px;
+}
+
+.button {
+    font-size: 8px;
+    font-weight: 600;
+    padding: 2px 5px 2px 5px;
+    border: 1.5px solid;
+    border-radius: 3px;
+}
+
+.active-b {
+    background-color: #53B3F2;
+    border-color: #53B3F2;
+    color: #fff;
+}
+
+.inactive-b {
+    background-color: #fff;
+    border-color: lightgray;
+    color: lightgray;
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tik {
+
+    padding: 1px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+
+.cross {
+
+    padding: 1px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+}
+
+.label {
+
+    padding: 1px 3px 1px 3px;
+    font-size: 6px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 4px;
+    color: white;
+}
+
+.editorial {
+    background-color: #53B3F2;
+}
